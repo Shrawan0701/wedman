@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #333;
+}
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+header {
+  background: #d6336c;
+  color: #fff;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer {
+  background: #111;
+  color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Add this to index.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/* index.css */
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none !important;
+  }
+  .hamburger-btn {
+    display: block !important;
+  }
+
+main {
+  padding-top: 70px; /* Same as your header height (15px padding + font size) */
+}
+
+}
